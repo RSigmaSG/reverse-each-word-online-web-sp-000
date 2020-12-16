@@ -10,8 +10,6 @@ def reverse_each_word(input)
     
   end
   
-  output_str.chop
-  
-  return output_str
+  return output_str.chop
   
 end
