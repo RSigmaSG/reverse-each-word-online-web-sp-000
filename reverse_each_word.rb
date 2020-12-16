@@ -6,7 +6,8 @@ def reverse_each_word(input)
   
   input_arr.collect do |word|
     
-    output_str << 
+    output_str << "#{word.reverse}"
+    if ()
     
   end
   
