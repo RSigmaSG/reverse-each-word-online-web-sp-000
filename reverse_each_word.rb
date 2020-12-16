@@ -6,10 +6,10 @@ def reverse_each_word(input)
   
   input_arr.collect do |word|
     
-    output_str = word.reverse.join(word.reverse)
+    word.reverse
     
   end
   
-  return output_str
+  return input_arr.join(' "')
   
 end
